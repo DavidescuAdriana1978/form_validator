@@ -48,7 +48,7 @@
                  <div class="form-group">
                     <label for="password2">Confirm Password</label>
                     <input type="password" id="password2" name="password" placeholder="Confirm Password"
-                    required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
+                    required pattern="^\+\d{7,15}$" title="Please enter a valid phone number with country code.">
                  </div>
                  <button type="submit">Register</button>
              </form>
